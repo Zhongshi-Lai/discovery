@@ -1,0 +1,12 @@
+linters:
+  enable:
+    - golint
+    - goimports
+    - govet
+    - errcheck
+    - staticcheck
+  skip-dirs-use-default: true
+
+run:
+  skip-dirs:
+    - APP-META

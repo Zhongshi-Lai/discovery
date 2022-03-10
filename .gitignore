@@ -1,0 +1,52 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# vscode
+.vscode/
+.history
+
+# jetbrain
+.idea/
+
+# secret file
+rsa_keys/
+
+# MAC
+.DS_Store
+
+# swagger
+docs/
+
+# build
+build/
+
+*.swp
+
+# project
+*.cert
+*.key
+.test
+
+# nacos 临时配置文件
+nacos_configs/
+acm_configs/
+nacos_log/
+nacos_client/
+
+# 日志临时文件
+log/
+logs/
+*.log
